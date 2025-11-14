@@ -1,0 +1,51 @@
+# ----------------------
+# NODE / JAVASCRIPT
+# ----------------------
+
+node_modules/
+dist/
+build/
+tmp/
+temp/
+.cache/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ----------------------
+# REACT / VITE
+# ----------------------
+
+*.local
+*.log
+*.env
+*.env.*
+!.env.example
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# Vite cache
+.vite/
+
+# ----------------------
+# OS FILES
+# ----------------------
+
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# MISC
+# ----------------------
+
+*.zip
+*.rar
+
+# ----------------------
+# PROJECT STRUCTURE
+# ----------------------
+
+# Ignore nested git repos inside labs
+LABS/*/.git/
