@@ -1,0 +1,33 @@
+.nav {
+  width: 100%;
+  background: #111;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+
+.nav a {
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav .btn {
+  background: #646cff;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.nav button {
+  background: red;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+}
